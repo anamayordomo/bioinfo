@@ -1,7 +1,14 @@
 ---
 title: "Práctica 8 BLAST"
 author: "Ana Mayordomo"
-format: html
+engine: knitr
+bibliography: ../../doc/references.bib
+language:
+   title-block-published: "Última actualización:"
+   section-title-references: "Bibliografía"
+format:
+   html:
+      embed-resources: true
 ---
 
 ## Ejercicio 1 Identificación aproximada de ortólogos
