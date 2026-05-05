@@ -1,8 +1,14 @@
 ---
 title: "Práctica 9"
 author: "Ana Mayordomo"
+engine: knitr
+bibliography: ../../doc/references.bib
+language:
+   title-block-published: "Última actualización:"
+   section-title-references: "Bibliografía"
 format: 
-   html: embed-resources: true
+   html: 
+    embed-resources: true
 ---
 
 ## Práctica 9. Reconstrucción filogenética
@@ -15,11 +21,6 @@ Obtener una filogenia calibrada de homininos y algunos primates, a partir de sec
 library(phangorn)
 mtdna <- read.phyDat('../../data/mtDNA.fasta', format = 'fasta')
 glance(mtdna)
-```
-Sería sensato reducir el conjunto de datos. ¿Qué secuencias eliminarías? Si quieres, puedes intentarlo con la función subset().
-
-```{r}
-subset()
 ```
 
 ##Escoger el modelo de evolución
